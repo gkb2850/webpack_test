@@ -1,0 +1,48 @@
+{
+  "name": "webpack_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.9.1",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "devDependencies": {
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkb2850/webpack_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkb2850/webpack_test/issues"
+  },
+  "homepage": "https://github.com/gkb2850/webpack_test#readme",
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}
