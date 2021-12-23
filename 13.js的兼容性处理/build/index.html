@@ -1,0 +1,165 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ../node_modules/babel-loader/lib/index.js):
+  SyntaxError: C:\Users\Administrator\Desktop\webpack_test\13.js的兼容性处理\src\index.html: Unexpected token (1:0)
+  
+  > 1 | <!DOCTYPE html>
+      | ^
+    2 | <html lang="en"><head><script defer src="js/built.js"></script></head>
+    3 | <head>
+    4 |     <meta charset="UTF-8">
+      at Parser._raise (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:569:17)
+      at Parser.raiseWithData (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:562:17)
+      at Parser.raise (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:523:17)
+      at Parser.unexpected (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:3601:16)
+      at Parser.parseExprAtom (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:12058:24)
+      at Parser.parseExprSubscripts (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11654:23)
+      at Parser.parseUpdate (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11634:21)
+      at Parser.parseMaybeUnary (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11609:23)
+      at Parser.parseMaybeUnaryOrPrivate (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11421:61)
+      at Parser.parseExprOps (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11428:23)
+  ModuleBuildError: Module build failed (from ../node_modules/babel-loader/lib/index.js):
+  SyntaxError: C:\Users\Administrator\Desktop\webpack_test\13.js的兼容性处理\src\index.html: Unexpected token (1:0)
+  
+  > 1 | <!DOCTYPE html>
+      | ^
+    2 | <html lang="en">
+    3 | <head>
+    4 |     <meta charset="UTF-8">
+      at Parser._raise (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:569:17)
+      at Parser.raiseWithData (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:562:17)
+      at Parser.raise (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:523:17)
+      at Parser.unexpected (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:3601:16)
+      at Parser.parseExprAtom (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:12058:24)
+      at Parser.parseExprSubscripts (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11654:23)
+      at Parser.parseUpdate (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11634:21)
+      at Parser.parseMaybeUnary (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11609:23)
+      at Parser.parseMaybeUnaryOrPrivate (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11421:61)
+      at Parser.parseExprOps (C:\Users\Administrator\Desktop\webpack_test\node_modules\@babel\parser\lib\index.js:11428:23)
+      at processResult (C:\Users\Administrator\Desktop\webpack_test\node_modules\webpack\lib\NormalModule.js:751:19)
+      at C:\Users\Administrator\Desktop\webpack_test\node_modules\webpack\lib\NormalModule.js:853:5
+      at C:\Users\Administrator\Desktop\webpack_test\node_modules\loader-runner\lib\LoaderRunner.js:399:11
+      at C:\Users\Administrator\Desktop\webpack_test\node_modules\loader-runner\lib\LoaderRunner.js:251:18
+      at context.callback (C:\Users\Administrator\Desktop\webpack_test\node_modules\loader-runner\lib\LoaderRunner.js:124:13)
+      at C:\Users\Administrator\Desktop\webpack_test\node_modules\babel-loader\lib\index.js:59:103
+  
+  - index.js:569 Parser._raise
+    [webpack_test]/[@babel]/parser/lib/index.js:569:17
+  
+  - index.js:562 Parser.raiseWithData
+    [webpack_test]/[@babel]/parser/lib/index.js:562:17
+  
+  - index.js:523 Parser.raise
+    [webpack_test]/[@babel]/parser/lib/index.js:523:17
+  
+  - index.js:3601 Parser.unexpected
+    [webpack_test]/[@babel]/parser/lib/index.js:3601:16
+  
+  - index.js:12058 Parser.parseExprAtom
+    [webpack_test]/[@babel]/parser/lib/index.js:12058:24
+  
+  - index.js:11654 Parser.parseExprSubscripts
+    [webpack_test]/[@babel]/parser/lib/index.js:11654:23
+  
+  - index.js:11634 Parser.parseUpdate
+    [webpack_test]/[@babel]/parser/lib/index.js:11634:21
+  
+  - index.js:11609 Parser.parseMaybeUnary
+    [webpack_test]/[@babel]/parser/lib/index.js:11609:23
+  
+  - index.js:11421 Parser.parseMaybeUnaryOrPrivate
+    [webpack_test]/[@babel]/parser/lib/index.js:11421:61
+  
+  - index.js:11428 Parser.parseExprOps
+    [webpack_test]/[@babel]/parser/lib/index.js:11428:23
+  
+  - ModuleBuildError: Module build failed (from ../node_modules/babel-loader/lib/index.js):
+  
+  - SyntaxError: C:\Users\Administrator\Desktop\webpack_test\13.js的兼容性处理\src\index.html: Unexpected token (1:0)
+  
+  - > 1 | <!DOCTYPE html>
+  
+  -     | ^
+  
+  -   2 | <html lang="en">
+  
+  -   3 | <head>
+  
+  -   4 |     <meta charset="UTF-8">
+  
+  - index.js:569 Parser._raise
+    [webpack_test]/[@babel]/parser/lib/index.js:569:17
+  
+  - index.js:562 Parser.raiseWithData
+    [webpack_test]/[@babel]/parser/lib/index.js:562:17
+  
+  - index.js:523 Parser.raise
+    [webpack_test]/[@babel]/parser/lib/index.js:523:17
+  
+  - index.js:3601 Parser.unexpected
+    [webpack_test]/[@babel]/parser/lib/index.js:3601:16
+  
+  - index.js:12058 Parser.parseExprAtom
+    [webpack_test]/[@babel]/parser/lib/index.js:12058:24
+  
+  - index.js:11654 Parser.parseExprSubscripts
+    [webpack_test]/[@babel]/parser/lib/index.js:11654:23
+  
+  - index.js:11634 Parser.parseUpdate
+    [webpack_test]/[@babel]/parser/lib/index.js:11634:21
+  
+  - index.js:11609 Parser.parseMaybeUnary
+    [webpack_test]/[@babel]/parser/lib/index.js:11609:23
+  
+  - index.js:11421 Parser.parseMaybeUnaryOrPrivate
+    [webpack_test]/[@babel]/parser/lib/index.js:11421:61
+  
+  - index.js:11428 Parser.parseExprOps
+    [webpack_test]/[@babel]/parser/lib/index.js:11428:23
+  
+  - NormalModule.js:751 processResult
+    [webpack_test]/[webpack]/lib/NormalModule.js:751:19
+  
+  - NormalModule.js:853 
+    [webpack_test]/[webpack]/lib/NormalModule.js:853:5
+  
+  - LoaderRunner.js:399 
+    [webpack_test]/[loader-runner]/lib/LoaderRunner.js:399:11
+  
+  - LoaderRunner.js:251 
+    [webpack_test]/[loader-runner]/lib/LoaderRunner.js:251:18
+  
+  - LoaderRunner.js:124 context.callback
+    [webpack_test]/[loader-runner]/lib/LoaderRunner.js:124:13
+  
+  - index.js:59 
+    [webpack_test]/[babel-loader]/lib/index.js:59:103
+  
+  - child-compiler.js:169 
+    [webpack_test]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:559 
+    [webpack_test]/[webpack]/lib/Compiler.js:559:11
+  
+  - Compiler.js:1129 
+    [webpack_test]/[webpack]/lib/Compiler.js:1129:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webpack_test]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1125 
+    [webpack_test]/[webpack]/lib/Compiler.js:1125:33
+  
+  - Compilation.js:2782 finalCallback
+    [webpack_test]/[webpack]/lib/Compilation.js:2782:11
+  
+  - Compilation.js:3087 
+    [webpack_test]/[webpack]/lib/Compilation.js:3087:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webpack_test]/[tapable]/lib/Hook.js:18:14
+  
+</pre>
