@@ -53,5 +53,6 @@ module.exports = {
             template: './src/index.html'
         })
     ],
-    mode: 'development'
+    //生产环境会自动压缩js代码
+    mode: 'production'
 }
